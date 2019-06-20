@@ -163,6 +163,19 @@ Configure Strongswan
 
 ![](media/e4a381dc0277495cbb9c197404138877.png)
 
+Config Password
+---------------
+
+```bash
+vi /etc/strongswan/ipsec.secrets
+```
+
+Add the following configuration:
+
+```
+3.112.29.59 47.74.46.62 : PSK yourpassword
+```
+
 Start Strongswan
 ----------------
 
